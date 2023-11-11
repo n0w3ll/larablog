@@ -23,7 +23,7 @@
         </div>
 
         <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
-            <div>
+            <div class="w-full flex justify-center">
                 <span class="relative z-0 inline-flex clear rounded-md">
                     {{-- Previous Page Link --}}
                     @if (!$paginator->onFirstPage())
